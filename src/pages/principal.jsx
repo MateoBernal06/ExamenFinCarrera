@@ -40,7 +40,7 @@ export const Principal = () => {
             </section>
             <section>
                 <div className='quienes-somos'>
-                    <h2 className='titulo-quiensomos'>¿Quienes somos?</h2>
+                    <p className='titulo-quiensomos'><b>¿Quienes somos?</b></p>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur atque molestias eaque debitis.
                         Doloribus deserunt, quos facilis quisquam deleniti harum sit sequi ad, commodi vero, velit 
