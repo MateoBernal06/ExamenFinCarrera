@@ -1,0 +1,115 @@
+.Barra{
+    background-color: rgb(4, 6, 50);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.frase{
+    font-size: 15pt;
+    font-family: cursive;
+}
+
+
+.titulo{
+    width: 40%;
+}
+
+.botones{
+    width: 30%;
+    justify-content: center;
+
+}
+
+.boton{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    background-color: rgb(4, 6, 50);
+}
+
+.imagen-producto{
+    width: 500px;
+    height: 400px;
+}
+
+.quienes-somos{
+    width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+    border: solid black 1px;
+    margin-bottom: 25px;
+    font-family: "Segoe IU", sans-serif;
+    font-size: 13pt;
+}
+
+.titulo-quiensomos{
+    text-align: center;
+}
+
+.contactos-empresa{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(4, 6, 50);
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-sociales{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.productos-texto{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+    background-color: royalblue;
+    margin-bottom: 25px;
+    border: solid black 1px;
+    padding: 20px;
+    width: 1100px;
+    border-radius: 8px;
+}
+
+.texto{
+    width: 600px;
+    font-family: "Segoe IU", sans-serif;
+    font-size: 13pt;
+}
+
+.imagen-producto-texto{
+    width: 400px;
+    height: 300px;
+}
