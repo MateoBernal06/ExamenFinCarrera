@@ -8,6 +8,7 @@ import Auth from './layout/Auth'
 import { Principal } from './pages/principal'
 import Login from './pages/login'
 import { Registro } from './pages/registro';
+import { NotFound } from './pages/notFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Auth/>}>
           <Route path='login' element={<Login />} />
           <Route path='registro' element={<Registro />} />
+          <Route path='*' element={<NotFound />}/>
         </Route>
       
       </Routes>
