@@ -30,11 +30,12 @@
 .formulario-login-registro{
     display: grid;
     width: 400px;
-    height: 250px;
+    height: auto;
     align-items: center;
     justify-items: center;
     border-radius: 8px;
     border: solid white 1px;
+    padding: 20px;
 }
 
 .ingreso-texto{
@@ -93,6 +94,9 @@
     text-align: center;
 }
 
+.lugar-boton-login-registro{
+    margin-top: 20px;
+}
 
 .pie-pagina-login-registro{
     display: flex;

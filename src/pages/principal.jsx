@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
+// imagenes de productos
 import autoUno from '../assets/productos/auto-1.webp';
 import autoDos from '../assets/productos/auto-2.webp';
 import autoTres from '../assets/productos/auto-3.jpg';

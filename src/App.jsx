@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Auth from './layout/Auth'
 import { Principal } from './pages/principal'
 import Login from './pages/login'
+import { Registro } from './pages/registro';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         
         <Route path='/' element={<Auth/>}>
           <Route path='login' element={<Login />} />
+          <Route path='registro' element={<Registro />} />
         </Route>
       
       </Routes>

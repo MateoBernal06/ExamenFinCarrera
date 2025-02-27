@@ -31,46 +31,46 @@ const Login = () => {
                         </p>
                     </div>
                 </nav>
-                    <div className='login-registro'>
-                        <div className='titulo-login-registro'>
-                            <h1>Iniciar Sesión</h1>
-                        </div>
-                        <form className='formulario-login-registro'>
-                            <div className='ingreso-texto'>
-                                <label className='text'>Correo Electrónico</label>
-                                <input 
-                                    type='email' 
-                                    name='email'
-                                    //value={form.email}
-                                    placeholder='jose.bernal@epn.edu.ec' 
-                                    className='input-login-registro'
-                                    //onChange={handleChange}
-                                />
-                            </div>
-                            <div className='ingreso-texto'>
-                                <label className='text'>Contraseña</label>
-                                <input 
-                                    type='password' 
-                                    name='password' 
-                                    //value={form.password}
-                                    placeholder='***********' 
-                                    className='input-login-registro'
-                                    //onChange={handleChange}
-                                />
-                            </div>
-                            <div>
-                                <button 
-                                    type='submit' className='boton-login' //onClick={handleSubmit}
-                                >
-                                    Iniciar Sesión
-                                </button>
-                                
-                            </div>
-                        </form>
-                        <div className='lugar-boton-registro'>
-                            <Link to='/registro'><button className='boton-registro'>Registrarse</button></Link>
-                        </div>
+                <div className='login-registro'>
+                    <div className='titulo-login-registro'>
+                        <h1>Iniciar Sesión</h1>
                     </div>
+                    <form className='formulario-login-registro'>
+                        <div className='ingreso-texto'>
+                            <label className='text'>Correo Electrónico</label>
+                            <input 
+                                type='email' 
+                                name='email'
+                                //value={form.email}
+                                placeholder='jose.bernal@epn.edu.ec' 
+                                className='input-login-registro'
+                                //onChange={handleChange}
+                            />
+                        </div>
+                        <div className='ingreso-texto'>
+                            <label className='text'>Contraseña</label>
+                            <input 
+                                type='password' 
+                                name='password' 
+                                //value={form.password}
+                                placeholder='***********' 
+                                className='input-login-registro'
+                                //onChange={handleChange}
+                            />
+                        </div>
+                        <div className='lugar-boton-login-registro'>
+                            <button 
+                                type='submit' className='boton-login' //onClick={handleSubmit}
+                            >
+                                Iniciar Sesión
+                            </button>
+                            
+                        </div>
+                    </form>
+                    <div className='lugar-boton-registro'>
+                        <Link to='/registro'><button className='boton-registro'>Registrarse</button></Link>
+                    </div>
+                </div>
                 <div className='pie-pagina-login-registro'>
                     <p>© 2025 Jose Mateo Bernal. Todos los derechos reservados.</p>
                 </div>
