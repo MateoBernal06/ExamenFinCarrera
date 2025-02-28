@@ -21,14 +21,16 @@ function App() {
       <Routes>
         <Route index element={<Principal/>}/>
         
+        <Route path='*' element={<NotFound />}/>
+        
         <Route path='/' element={<Auth/>}>
           <Route path='login' element={<Login />} />
           <Route path='registro' element={<Registro />} />
-          <Route path='*' element={<NotFound />}/>
         </Route>
       
         <Route path='dashboard/*' element={<Dashboard/>}>
-        
+          <Route path='gestion-producto' element/>
+          <Route path='gestion-usuarios' element/>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,8 +1,16 @@
 
 import { Link, Navigate, Outlet, useLocation } from "react-router-dom";
+//import { useAuth } from '../context/AuthProvider'
 import Button from "react-bootstrap/Button";
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+
 
 const Dashboard = () => {
+    //const { auth } = useAuth();
+    const location = useLocation();
+    const urlActual = location.pathname
+    // nombre de usuario
+    //{auth.nombres}
     return(
         <div>
             <nav className='Barra-dashboard'>
@@ -26,9 +34,18 @@ const Dashboard = () => {
                 </div>
             </nav>
             <div className="acciones-dashboard">
-                <div>Gestion Usuario</div>
-                <div>Gestion Producto</div>
+                <ButtonGroup size="lg" className="mb-2">
+                    <Link to='/dashboard/gestion-usuarios'>
+                        <Button variant="primary">Gestion Usuario</Button>
+                    </Link>
+                    <Link to='/dashboard/gestion-producto'>
+                        <Button variant="success">Gestion Producto</Button>
+                    </Link>
+                </ButtonGroup>
             </div>
+            <main className='contenido'>
+                <Outlet />
+            </main>
         </div>
     )
 }
