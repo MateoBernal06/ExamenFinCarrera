@@ -1,0 +1,62 @@
+
+table{
+    width: 1000px;
+    margin: 0 auto;
+    border: solid 2px;
+}
+
+th, td, tr{
+    text-align: center;
+    align-items: center;
+    font-size: 13pt;
+    height: 50px;
+    width: auto;
+}
+
+th {
+    background-color: rgb(4, 6, 50);
+    color: white;
+    font-family: cursive;
+}
+
+.titulo_pantalla {
+    font-size: 20pt;
+    font-family: cursive;
+    text-align: center;
+}
+
+.contenido-dashboard{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.boton-agregar{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(25, 33, 173);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.boton-agregar:hover{
+    background-color: rgb(4, 6, 50);
+}
+
+.contenedor_boton{
+    text-align: center;
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.acciones{
+    display: flex;
+    justify-content:space-evenly;
+}
+
