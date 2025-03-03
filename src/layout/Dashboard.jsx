@@ -18,7 +18,7 @@ const Dashboard = () => {
                     <h1>Examen Final</h1>
                 </div>
                 <div className='frase-login-registro'>
-                    <p>"En esta facultad, no solo adquirimos conocimiento, sino que forjamos el futuro 
+                    <p>"En la ESFOT, no solo adquirimos conocimiento, sino que forjamos el futuro 
                         con cada idea, esfuerzo y pasión. ¡El éxito comienza aquí! 🌅"
                     </p>
                 </div>

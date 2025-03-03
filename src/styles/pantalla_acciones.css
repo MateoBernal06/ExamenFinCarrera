@@ -60,3 +60,8 @@ th {
     justify-content:space-evenly;
 }
 
+.input-modal{
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px;
+}

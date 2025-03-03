@@ -26,8 +26,8 @@ function App() {
         <Route path='*' element={<NotFound />}/>
         
         <Route path='/' element={<Auth/>}>
-          <Route path='login' element={<Login />} />
-          <Route path='registro' element={<Registro />} />
+          <Route path='login' element={<Login />}/>
+          <Route path='registro' element={<Registro />}/>
         </Route>
       
         <Route path='dashboard/*' element={<Dashboard/>}>
