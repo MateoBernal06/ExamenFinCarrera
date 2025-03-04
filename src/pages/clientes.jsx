@@ -1,7 +1,7 @@
 
 import Tabla from "../components/Tabla";
 import { useContext, useEffect, useState } from 'react';
-import ModalCrear from "../components/modals/crearUsuario";
+import ModalCrearUsuario from "../components/modals/crearUsuario";
 
 const AccionesClientes = () => {
     
@@ -18,7 +18,7 @@ const AccionesClientes = () => {
                 <button className="boton-agregar" onClick={handleOpen}>Nuevo Cliente</button>
             </div>
             <Tabla />
-            <ModalCrear show={showModal} handleClose={handleClose} />
+            <ModalCrearUsuario show={showModal} handleClose={handleClose} />
         </>
     )
 }

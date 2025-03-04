@@ -31,7 +31,7 @@ th {
 }
 
 .boton-agregar{
-    width: 120px;
+    width: auto;
     height: 40px;
     border-radius: 8px;
     background-color: rgb(25, 33, 173);
@@ -55,6 +55,11 @@ th {
     cursor: pointer;
 }
 
+.icono:hover{
+    background-color: rgb(8, 7, 7);
+    color: white;
+}
+
 .acciones{
     display: flex;
     justify-content:space-evenly;
@@ -64,4 +69,8 @@ th {
     text-align: center;
     border-radius: 8px;
     border: solid 1px;
+}
+
+.seleccionar{
+    text-align: center;
 }

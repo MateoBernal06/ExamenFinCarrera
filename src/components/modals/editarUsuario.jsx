@@ -1,14 +1,24 @@
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 
-const ModalCrearUsuario=({ show, handleClose }) =>{
+const ModalActualizarUsuario=({ show, handleClose }) =>{
     return (
     <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-            <Modal.Title className='text'>Registro de usuario</Modal.Title>
+            <Modal.Title className='text'>Actualizar datos de usuario</Modal.Title>
         </Modal.Header>
         <Modal.Body>
             <form>
+                <div className='ingreso-texto'> 
+                    <label className='text'>ID</label>
+                    <input
+                        className='input-modal'
+                        id="id_usuario"
+                        type="text"
+                        name="id_usuario"
+                        disabled
+                    />
+                </div>
                 <div className='ingreso-texto'> 
                     <label className='text'>Nombre</label>
                     <input 
@@ -54,12 +64,11 @@ const ModalCrearUsuario=({ show, handleClose }) =>{
                 Cancelar
             </Button>
             <Button variant="success" onClick={handleClose}>
-                Registrar
+                Actualizar
             </Button>
         </Modal.Footer>
     </Modal>
     );
 }
 
-export default ModalCrearUsuario;
-
+export default ModalActualizarUsuario;

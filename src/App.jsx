@@ -13,6 +13,7 @@ import { Registro } from './pages/registro';
 import { NotFound } from './pages/notFound';
 import Dashboard from './layout/Dashboard';
 import AccionesClientes from './pages/clientes';
+import AccionesProductos from './pages/productos';
 
 //falta colocar el privateRoute en dashboard
 
@@ -31,7 +32,7 @@ function App() {
         </Route>
       
         <Route path='dashboard/*' element={<Dashboard/>}>
-          <Route path='gestion-producto' element/>
+          <Route path='gestion-producto' element={<AccionesProductos/>}/>
           <Route path='gestion-usuarios' element={<AccionesClientes/>}/>
         </Route>
       </Routes>
